@@ -47,7 +47,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="answerBottonPressed:" destination="RTc-7Q-gBD" eventType="touchUpInside" id="Zad-MB-EZ3"/>
+                                            <action selector="answerButtonPressed:" destination="RTc-7Q-gBD" eventType="touchUpInside" id="ie6-91-5z0"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90X-qG-mBU">
@@ -61,7 +61,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="answerBottonPressed:" destination="RTc-7Q-gBD" eventType="touchUpInside" id="50j-N4-Hxo"/>
+                                            <action selector="answerButtonPressed:" destination="RTc-7Q-gBD" eventType="touchUpInside" id="U16-Qm-G6n"/>
                                         </connections>
                                     </button>
                                     <progressView opaque="NO" contentMode="scaleToFill" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="UwH-GX-s1Z">
@@ -90,11 +90,11 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="falseButton" destination="90X-qG-mBU" id="D3r-JA-23P"/>
+                        <outlet property="falseButton" destination="90X-qG-mBU" id="k7I-bc-TYg"/>
                         <outlet property="progressBar" destination="UwH-GX-s1Z" id="VbJ-W6-gnR"/>
                         <outlet property="questionLabel" destination="0Y4-Mt-QgV" id="0S0-OH-F7G"/>
                         <outlet property="scoreLabel" destination="gKU-wN-MuI" id="zg2-v1-gQn"/>
-                        <outlet property="trueButton" destination="JWN-sa-LDp" id="BsO-4w-g3a"/>
+                        <outlet property="trueButton" destination="JWN-sa-LDp" id="hE3-WU-bTm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8qM-Ox-BxL" sceneMemberID="firstResponder"/>
