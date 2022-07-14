@@ -8,7 +8,6 @@
 import Foundation
 
 struct QuizBrain {
-    
     var questionNumber = 0
     var score = 0
     
