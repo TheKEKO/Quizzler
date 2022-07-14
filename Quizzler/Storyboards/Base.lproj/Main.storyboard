@@ -24,14 +24,14 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="XTg-T2-Xqq">
                                 <rect key="frame" x="20" y="44" width="374" height="818"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKU-wN-MuI">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="71.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nak-Fb-HP9">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="1" green="0.99999994039999995" blue="0.99999994039999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="1000" text="Question Text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Y4-Mt-QgV">
-                                        <rect key="frame" x="0.0" y="81.5" width="374" height="536.5"/>
+                                        <rect key="frame" x="0.0" y="30.5" width="374" height="587.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -93,7 +93,7 @@
                         <outlet property="falseButton" destination="90X-qG-mBU" id="k7I-bc-TYg"/>
                         <outlet property="progressBar" destination="UwH-GX-s1Z" id="VbJ-W6-gnR"/>
                         <outlet property="questionLabel" destination="0Y4-Mt-QgV" id="0S0-OH-F7G"/>
-                        <outlet property="scoreLabel" destination="gKU-wN-MuI" id="zg2-v1-gQn"/>
+                        <outlet property="scoreLabel" destination="Nak-Fb-HP9" id="NBg-UP-gwC"/>
                         <outlet property="trueButton" destination="JWN-sa-LDp" id="hE3-WU-bTm"/>
                     </connections>
                 </viewController>
