@@ -1,2 +1,1 @@
-# Quizzler
-Application Quizzler using UIKit
+Final Application
